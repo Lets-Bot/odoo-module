@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <!-- Queue rows are only visible to administrators, restricted to their allowed companies. -->
+    <record id="letsbot_webhook_event_company_rule" model="ir.rule">
+        <field name="name">LetsBot webhook events: allowed companies</field>
+        <field name="model_id" ref="model_letsbot_webhook_event"/>
+        <field name="domain_force">['|', ('company_id', '=', False), ('company_id', 'in', company_ids)]</field>
+        <field name="groups" eval="[(4, ref('base.group_system'))]"/>
+    </record>
+</odoo>

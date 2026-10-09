@@ -1,0 +1,479 @@
+# Spanish translation of letsbot_connector.
+# This file contains the translation of the following modules:
+# 	* letsbot_connector
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 17.0/18.0/19.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-10-08 18:57+0000\n"
+"PO-Revision-Date: 2026-10-08 18:57+0000\n"
+"Last-Translator: \n"
+"Language-Team: Spanish\n"
+"Language: es\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#. module: letsbot_connector
+#: model_terms:ir.ui.view,arch_db:letsbot_connector.res_config_settings_view_form
+msgid "<span class=\"o_form_label\">Last contact: </span>"
+msgstr "<span class=\"o_form_label\">Último contacto: </span>"
+
+#. module: letsbot_connector
+#: model_terms:ir.ui.view,arch_db:letsbot_connector.res_config_settings_view_form
+msgid "<span class=\"o_form_label\">Workspace: </span>"
+msgstr "<span class=\"o_form_label\">Espacio de trabajo: </span>"
+
+#. module: letsbot_connector
+#: model_terms:ir.ui.view,arch_db:letsbot_connector.view_partner_form_letsbot
+msgid ""
+"<span class=\"o_stat_text\">WhatsApp</span>\n"
+"                        <span class=\"o_stat_text\">(LetsBot)</span>"
+msgstr ""
+"<span class=\"o_stat_text\">WhatsApp</span>\n"
+"                        <span class=\"o_stat_text\">(LetsBot)</span>"
+
+#. module: letsbot_connector
+#: model_terms:ir.ui.view,arch_db:letsbot_connector.res_config_settings_view_form
+msgid "<span> pending webhook events</span>"
+msgstr "<span> eventos de webhook pendientes</span>"
+
+#. module: letsbot_connector
+#: model:ir.model.fields,field_description:letsbot_connector.field_res_config_settings__letsbot_key_days
+msgid "API Key Validity (days)"
+msgstr "Validez de la clave API (días)"
+
+#. module: letsbot_connector
+#: model_terms:ir.ui.view,arch_db:letsbot_connector.res_config_settings_view_form
+msgid "Advanced"
+msgstr "Avanzado"
+
+#. module: letsbot_connector
+#: model:ir.model.fields,field_description:letsbot_connector.field_letsbot_webhook_event__attempts
+msgid "Attempts"
+msgstr "Intentos"
+
+#. module: letsbot_connector
+#: model:ir.model.fields,field_description:letsbot_connector.field_res_config_settings__letsbot_watch_lead
+msgid "CRM Leads"
+msgstr "Oportunidades CRM"
+
+#. module: letsbot_connector
+#: model:ir.model.fields,field_description:letsbot_connector.field_letsbot_webhook_event__company_id
+msgid "Company"
+msgstr "Compañía"
+
+#. module: letsbot_connector
+#: model:ir.model,name:letsbot_connector.model_res_config_settings
+msgid "Config Settings"
+msgstr "Ajustes de configuración"
+
+#. module: letsbot_connector
+#. odoo-python
+#: code:addons/letsbot_connector/models/letsbot_pairing.py:0
+msgid "Connect LetsBot first."
+msgstr "Conecte LetsBot primero."
+
+#. module: letsbot_connector
+#: model_terms:ir.ui.view,arch_db:letsbot_connector.res_config_settings_view_form
+msgid "Connect to LetsBot"
+msgstr "Conectar con LetsBot"
+
+#. module: letsbot_connector
+#: model:ir.model.fields.selection,name:letsbot_connector.selection__res_config_settings__letsbot_status__connected
+msgid "Connected"
+msgstr "Conectado"
+
+#. module: letsbot_connector
+#: model_terms:ir.ui.view,arch_db:letsbot_connector.res_config_settings_view_form
+msgid "Connection"
+msgstr "Conexión"
+
+#. module: letsbot_connector
+#: model:ir.model,name:letsbot_connector.model_res_partner
+msgid "Contact"
+msgstr "Contacto"
+
+#. module: letsbot_connector
+#. odoo-python
+#: code:addons/letsbot_connector/models/letsbot_pairing.py:0
+msgid ""
+"Could not reach LetsBot. Check the server's internet access and try again."
+msgstr "No se pudo contactar con LetsBot. Compruebe el acceso a Internet del servidor e inténtelo de nuevo."
+
+#. module: letsbot_connector
+#: model:ir.model.fields,field_description:letsbot_connector.field_letsbot_webhook_event__create_uid
+msgid "Created by"
+msgstr "Creado por"
+
+#. module: letsbot_connector
+#: model:ir.model.fields,field_description:letsbot_connector.field_letsbot_webhook_event__create_date
+msgid "Created on"
+msgstr "Creado el"
+
+#. module: letsbot_connector
+#: model:ir.model.fields,field_description:letsbot_connector.field_res_config_settings__letsbot_watch_invoice
+msgid "Customer Invoices"
+msgstr "Facturas de cliente"
+
+#. module: letsbot_connector
+#: model_terms:ir.ui.view,arch_db:letsbot_connector.res_config_settings_view_form
+msgid "Defaults work for most companies."
+msgstr "Los valores predeterminados sirven para la mayoría de las empresas."
+
+#. module: letsbot_connector
+#: model:ir.model.fields,field_description:letsbot_connector.field_res_config_settings__letsbot_watch_picking
+msgid "Deliveries"
+msgstr "Entregas"
+
+#. module: letsbot_connector
+#: model:ir.model.fields,field_description:letsbot_connector.field_letsbot_webhook_event__uid_token
+msgid "Delivery ID"
+msgstr "ID de entrega"
+
+#. module: letsbot_connector
+#: model_terms:ir.ui.view,arch_db:letsbot_connector.res_config_settings_view_form
+msgid "Disconnect"
+msgstr "Desconectar"
+
+#. module: letsbot_connector
+#: model_terms:ir.ui.view,arch_db:letsbot_connector.res_config_settings_view_form
+msgid ""
+"Disconnect LetsBot? The LetsBot API key will be revoked and webhooks stop "
+"immediately."
+msgstr "¿Desconectar LetsBot? La clave API de LetsBot se revocará y los webhooks se detendrán de inmediato."
+
+#. module: letsbot_connector
+#: model:ir.model.fields.selection,name:letsbot_connector.selection__res_config_settings__letsbot_status__revoked
+msgid "Disconnected by LetsBot"
+msgstr "Desconectado por LetsBot"
+
+#. module: letsbot_connector
+#: model:ir.model.fields,field_description:letsbot_connector.field_letsbot_pairing__display_name
+#: model:ir.model.fields,field_description:letsbot_connector.field_letsbot_webhook_event__display_name
+#: model:ir.model.fields,field_description:letsbot_connector.field_mail_thread__display_name
+#: model:ir.model.fields,field_description:letsbot_connector.field_res_config_settings__display_name
+#: model:ir.model.fields,field_description:letsbot_connector.field_res_partner__display_name
+msgid "Display Name"
+msgstr "Nombre mostrado"
+
+#. module: letsbot_connector
+#: model:ir.model,name:letsbot_connector.model_mail_thread
+msgid "Email Thread"
+msgstr "Hilo de correo electrónico"
+
+#. module: letsbot_connector
+#: model:ir.model.fields,field_description:letsbot_connector.field_letsbot_webhook_event__event
+msgid "Event"
+msgstr "Evento"
+
+#. module: letsbot_connector
+#: model:ir.model.fields.selection,name:letsbot_connector.selection__letsbot_webhook_event__state__dead
+#: model_terms:ir.ui.view,arch_db:letsbot_connector.letsbot_webhook_event_view_search
+msgid "Failed"
+msgstr "Fallido"
+
+#. module: letsbot_connector
+#: model:ir.model.fields,field_description:letsbot_connector.field_letsbot_pairing__id
+#: model:ir.model.fields,field_description:letsbot_connector.field_letsbot_webhook_event__id
+#: model:ir.model.fields,field_description:letsbot_connector.field_mail_thread__id
+#: model:ir.model.fields,field_description:letsbot_connector.field_res_config_settings__id
+#: model:ir.model.fields,field_description:letsbot_connector.field_res_partner__id
+msgid "ID"
+msgstr "ID"
+
+#. module: letsbot_connector
+#: model:ir.model.fields,field_description:letsbot_connector.field_res_config_settings__letsbot_user_id
+msgid "Integration User"
+msgstr "Usuario de integración"
+
+#. module: letsbot_connector
+#. odoo-python
+#: code:addons/letsbot_connector/models/letsbot_pairing.py:0
+msgid "Invalid URL from LetsBot: %s"
+msgstr "URL no válida de LetsBot: %s"
+
+#. module: letsbot_connector
+#. odoo-python
+#: code:addons/letsbot_connector/models/letsbot_pairing.py:0
+msgid "Invalid pairing state."
+msgstr "Estado de vinculación no válido."
+
+#. module: letsbot_connector
+#: model:ir.model.fields,field_description:letsbot_connector.field_res_config_settings__letsbot_last_ping
+msgid "Last Contact"
+msgstr "Último contacto"
+
+#. module: letsbot_connector
+#: model:ir.model.fields,field_description:letsbot_connector.field_letsbot_webhook_event__last_error
+#: model:ir.model.fields,field_description:letsbot_connector.field_res_config_settings__letsbot_last_error
+msgid "Last Error"
+msgstr "Último error"
+
+#. module: letsbot_connector
+#: model:ir.model.fields,field_description:letsbot_connector.field_letsbot_webhook_event__last_status_code
+msgid "Last HTTP Status"
+msgstr "Último estado HTTP"
+
+#. module: letsbot_connector
+#: model:ir.model.fields,field_description:letsbot_connector.field_letsbot_webhook_event__write_uid
+msgid "Last Updated by"
+msgstr "Última actualización por"
+
+#. module: letsbot_connector
+#: model:ir.model.fields,field_description:letsbot_connector.field_letsbot_webhook_event__write_date
+msgid "Last Updated on"
+msgstr "Última actualización el"
+
+#. module: letsbot_connector
+#. odoo-python
+#: code:addons/letsbot_connector/models/res_config_settings.py:0
+msgid "LetsBot"
+msgstr "LetsBot"
+
+#. module: letsbot_connector
+#: model:ir.model.fields,field_description:letsbot_connector.field_res_config_settings__letsbot_connect_url
+msgid "LetsBot Connect URL"
+msgstr "URL de conexión de LetsBot"
+
+#. module: letsbot_connector
+#: model:ir.model,name:letsbot_connector.model_letsbot_pairing
+msgid "LetsBot Pairing Service"
+msgstr "Servicio de vinculación de LetsBot"
+
+#. module: letsbot_connector
+#: model:ir.model.fields,field_description:letsbot_connector.field_res_config_settings__letsbot_status
+msgid "LetsBot Status"
+msgstr "Estado de LetsBot"
+
+#. module: letsbot_connector
+#: model:ir.model,name:letsbot_connector.model_letsbot_webhook_event
+msgid "LetsBot Webhook Event"
+msgstr "Evento de webhook de LetsBot"
+
+#. module: letsbot_connector
+#: model:ir.actions.act_window,name:letsbot_connector.action_letsbot_webhook_event
+#: model:ir.ui.menu,name:letsbot_connector.menu_letsbot_webhook_event
+msgid "LetsBot Webhook Events"
+msgstr "Eventos de webhook de LetsBot"
+
+#. module: letsbot_connector
+#: model_terms:ir.ui.view,arch_db:letsbot_connector.res_config_settings_view_form
+msgid "LetsBot WhatsApp"
+msgstr "LetsBot WhatsApp"
+
+#. module: letsbot_connector
+#: model:ir.model.fields,field_description:letsbot_connector.field_res_config_settings__letsbot_account_label
+msgid "LetsBot Workspace"
+msgstr "Espacio de trabajo de LetsBot"
+
+#. module: letsbot_connector
+#. odoo-python
+#: code:addons/letsbot_connector/models/letsbot_pairing.py:0
+msgid "LetsBot did not accept the test event: %s"
+msgstr "LetsBot no aceptó el evento de prueba: %s"
+
+#. module: letsbot_connector
+#: model_terms:ir.ui.view,arch_db:letsbot_connector.res_config_settings_view_form
+msgid ""
+"LetsBot is notified (record id + status only) when these documents change, "
+"then re-reads them through the API."
+msgstr "LetsBot recibe un aviso (solo el ID del registro y su estado) cuando cambian estos documentos y luego los vuelve a leer mediante la API."
+
+#. module: letsbot_connector
+#. odoo-python
+#: code:addons/letsbot_connector/models/letsbot_pairing.py:0
+msgid "LetsBot refused the connection request (HTTP %s)."
+msgstr "LetsBot rechazó la solicitud de conexión (HTTP %s)."
+
+#. module: letsbot_connector
+#. odoo-python
+#: code:addons/letsbot_connector/models/letsbot_pairing.py:0
+msgid "LetsBot returned a redirect to an unexpected domain."
+msgstr "LetsBot devolvió una redirección a un dominio inesperado."
+
+#. module: letsbot_connector
+#. odoo-python
+#: code:addons/letsbot_connector/models/letsbot_pairing.py:0
+msgid "LetsBot returned an invalid answer."
+msgstr "LetsBot devolvió una respuesta no válida."
+
+#. module: letsbot_connector
+#: model:ir.actions.server,name:letsbot_connector.ir_cron_letsbot_webhook_dispatch_ir_actions_server
+msgid "LetsBot: deliver webhook events"
+msgstr "LetsBot: entregar eventos de webhook"
+
+#. module: letsbot_connector
+#: model:ir.model.fields,field_description:letsbot_connector.field_res_partner__letsbot_chat_available
+#: model:ir.model.fields,field_description:letsbot_connector.field_res_users__letsbot_chat_available
+msgid "Letsbot Chat Available"
+msgstr "Chat de LetsBot disponible"
+
+#. module: letsbot_connector
+#: model:ir.model.fields,field_description:letsbot_connector.field_letsbot_webhook_event__model
+msgid "Model"
+msgstr "Modelo"
+
+#. module: letsbot_connector
+#: model:ir.model.fields,field_description:letsbot_connector.field_letsbot_webhook_event__next_attempt_at
+msgid "Next Attempt"
+msgstr "Próximo intento"
+
+#. module: letsbot_connector
+#. odoo-python
+#: code:addons/letsbot_connector/models/res_partner.py:0
+msgid "No LetsBot conversation is available for this contact."
+msgstr "No hay ninguna conversación de LetsBot disponible para este contacto."
+
+#. module: letsbot_connector
+#: model:ir.model.fields.selection,name:letsbot_connector.selection__res_config_settings__letsbot_status__disconnected
+msgid "Not connected"
+msgstr "No conectado"
+
+#. module: letsbot_connector
+#: model:ir.model.fields,help:letsbot_connector.field_res_config_settings__letsbot_key_days
+msgid ""
+"Odoo 18+ only: the API key generated for LetsBot expires after this many "
+"days (1-365)."
+msgstr "Solo Odoo 18+: la clave API generada para LetsBot caduca tras este número de días (1-365)."
+
+#. module: letsbot_connector
+#. odoo-python
+#: code:addons/letsbot_connector/models/letsbot_pairing.py:0
+msgid "Only administrators can manage the LetsBot connection."
+msgstr "Solo los administradores pueden gestionar la conexión con LetsBot."
+
+#. module: letsbot_connector
+#. odoo-python
+#: code:addons/letsbot_connector/models/letsbot_pairing.py:0
+msgid "Only the LetsBot integration user can call this method."
+msgstr "Solo el usuario de integración de LetsBot puede llamar a este método."
+
+#. module: letsbot_connector
+#: model_terms:ir.ui.view,arch_db:letsbot_connector.res_config_settings_view_form
+msgid ""
+"Pair this database with your LetsBot workspace. No API key to copy: Odoo "
+"hands a dedicated key to LetsBot securely."
+msgstr "Vincule esta base de datos con su espacio de trabajo de LetsBot. No hay que copiar ninguna clave API: Odoo entrega una clave dedicada a LetsBot de forma segura."
+
+#. module: letsbot_connector
+#. odoo-python
+#: code:addons/letsbot_connector/models/letsbot_pairing.py:0
+msgid "Pairing must be confirmed with the LetsBot integration key."
+msgstr "La vinculación debe confirmarse con la clave de integración de LetsBot."
+
+#. module: letsbot_connector
+#: model:ir.model.fields.selection,name:letsbot_connector.selection__letsbot_webhook_event__state__pending
+#: model_terms:ir.ui.view,arch_db:letsbot_connector.letsbot_webhook_event_view_search
+msgid "Pending"
+msgstr "Pendiente"
+
+#. module: letsbot_connector
+#: model:ir.model.fields,field_description:letsbot_connector.field_res_config_settings__letsbot_queue_pending
+msgid "Pending Events"
+msgstr "Eventos pendientes"
+
+#. module: letsbot_connector
+#: model:ir.model.fields,field_description:letsbot_connector.field_res_config_settings__letsbot_watch_product
+msgid "Products"
+msgstr "Productos"
+
+#. module: letsbot_connector
+#: model_terms:ir.ui.view,arch_db:letsbot_connector.res_config_settings_view_form
+msgid "Real-time updates"
+msgstr "Actualizaciones en tiempo real"
+
+#. module: letsbot_connector
+#: model_terms:ir.ui.view,arch_db:letsbot_connector.res_config_settings_view_form
+msgid "Reconnect"
+msgstr "Volver a conectar"
+
+#. module: letsbot_connector
+#: model:ir.model.fields,field_description:letsbot_connector.field_letsbot_webhook_event__res_id
+msgid "Record ID"
+msgstr "ID del registro"
+
+#. module: letsbot_connector
+#: model:ir.model.fields,field_description:letsbot_connector.field_letsbot_webhook_event__record_write_date
+msgid "Record Last Update"
+msgstr "Última actualización del registro"
+
+#. module: letsbot_connector
+#: model_terms:ir.ui.view,arch_db:letsbot_connector.letsbot_webhook_event_view_form
+msgid "Retry"
+msgstr "Reintentar"
+
+#. module: letsbot_connector
+#: model:ir.model.fields,field_description:letsbot_connector.field_res_config_settings__letsbot_watch_sale
+msgid "Sales Orders"
+msgstr "Pedidos de venta"
+
+#. module: letsbot_connector
+#: model_terms:ir.ui.view,arch_db:letsbot_connector.res_config_settings_view_form
+msgid "Send test event"
+msgstr "Enviar evento de prueba"
+
+#. module: letsbot_connector
+#: model:ir.model.fields.selection,name:letsbot_connector.selection__letsbot_webhook_event__state__sent
+#: model_terms:ir.ui.view,arch_db:letsbot_connector.letsbot_webhook_event_view_search
+msgid "Sent"
+msgstr "Enviado"
+
+#. module: letsbot_connector
+#: model:ir.model.fields,field_description:letsbot_connector.field_letsbot_webhook_event__sent_at
+msgid "Sent At"
+msgstr "Enviado el"
+
+#. module: letsbot_connector
+#: model:ir.model.fields,field_description:letsbot_connector.field_letsbot_webhook_event__state
+msgid "State"
+msgstr "Estado"
+
+#. module: letsbot_connector
+#: model:ir.model.fields,field_description:letsbot_connector.field_letsbot_webhook_event__values_json
+msgid "State Values"
+msgstr "Valores de estado"
+
+#. module: letsbot_connector
+#. odoo-python
+#: code:addons/letsbot_connector/models/res_config_settings.py:0
+msgid "Test event delivered."
+msgstr "Evento de prueba entregado."
+
+#. module: letsbot_connector
+#. odoo-python
+#: code:addons/letsbot_connector/models/letsbot_pairing.py:0
+msgid "The LetsBot connect URL is invalid: %s"
+msgstr "La URL de conexión de LetsBot no es válida: %s"
+
+#. module: letsbot_connector
+#. odoo-python
+#: code:addons/letsbot_connector/models/letsbot_pairing.py:0
+msgid "The pairing request has expired. Click Connect again in Odoo."
+msgstr "La solicitud de vinculación ha caducado. Vuelva a pulsar Conectar en Odoo."
+
+#. module: letsbot_connector
+#. odoo-python
+#: code:addons/letsbot_connector/models/letsbot_pairing.py:0
+msgid "The webhook secret must be at least 32 characters."
+msgstr "El secreto del webhook debe tener al menos 32 caracteres."
+
+#. module: letsbot_connector
+#. odoo-python
+#: code:addons/letsbot_connector/models/letsbot_pairing.py:0
+msgid "This pairing request was replaced or already used."
+msgstr "Esta solicitud de vinculación fue reemplazada o ya se utilizó."
+
+#. module: letsbot_connector
+#: model:ir.model.fields,help:letsbot_connector.field_res_config_settings__letsbot_user_id
+msgid ""
+"User whose API key LetsBot uses. Leave empty to let the connector create a "
+"dedicated 'LetsBot Integration' user (recommended)."
+msgstr "Usuario cuya clave API utiliza LetsBot. Déjelo vacío para que el conector cree un usuario dedicado 'LetsBot Integration' (recomendado)."
+
+#. module: letsbot_connector
+#: model:ir.model.fields.selection,name:letsbot_connector.selection__res_config_settings__letsbot_status__pending
+msgid "Waiting for LetsBot"
+msgstr "Esperando a LetsBot"

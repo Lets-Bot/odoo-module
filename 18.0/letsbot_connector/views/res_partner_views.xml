@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <record id="view_partner_form_letsbot" model="ir.ui.view">
+        <field name="name">res.partner.form.letsbot</field>
+        <field name="model">res.partner</field>
+        <field name="inherit_id" ref="base.view_partner_form"/>
+        <field name="arch" type="xml">
+            <div name="button_box" position="inside">
+                <field name="letsbot_chat_available" invisible="1"/>
+                <button name="action_open_letsbot_chat" type="object" class="oe_stat_button"
+                        icon="fa-whatsapp" invisible="not letsbot_chat_available">
+                    <div class="o_stat_info">
+                        <span class="o_stat_text">WhatsApp</span>
+                        <span class="o_stat_text">(LetsBot)</span>
+                    </div>
+                </button>
+            </div>
+        </field>
+    </record>
+</odoo>
