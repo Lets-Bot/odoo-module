@@ -37,30 +37,38 @@ git checkout --orphan 17.0 && cp -R 17.0/* <repo>/ && git add letsbot_connector 
 | Field | Value | Source |
 |---|---|---|
 | Technical name | `letsbot_connector` | folder |
-| Name | LetsBot WhatsApp Connector | `name` |
-| Summary | Connect Odoo to LetsBot (WhatsApp AI inbox) in one click: secure pairing and signed real-time webhooks. | `summary` |
+| Name | LetsBot WhatsApp AI Inbox (25 characters, the store maximum; was "LetsBot WhatsApp Connector" up to 1.0.0) | `name` |
+| Summary | AI agent and omnichannel inbox powered by your Odoo data: WhatsApp, Instagram, Messenger, Telegram and email. | `summary` |
 | Category | Sales | `category` (alternative: Discuss) |
 | License | LGPL-3 | `license` + LICENSE file |
 | Price | **Free** (no `price`/`currency` keys in the manifest) | decision 11.1 #2 |
 | Author / website / support | LetsBot / https://letsbot.net / support@letsbot.net | manifest |
 | Depends | `base_setup`, `mail` (Community-compatible; no Enterprise dependency) | manifest |
-| Icon | `static/description/icon.png` (140×140) | done |
-| Main image | `static/description/banner.png` (1024×500, `images` key) | done (generated placeholder, replace with a designed one if wanted) |
-| Description page | `static/description/index.html` (English, no JS, inline styles only) | done |
+| Icon | `static/description/icon.png` (256×256, white LetsBot mark on brand purple #6517ab) | done |
+| Main image | `static/description/letsbot_cover.png` (2240×1120, 2:1, `images` key) | done |
+| Feature images | `static/description/feature_01_…08_*.png` (2560×1600, 16:10, < 300 KB each) used by `index.html` | done |
+| Description page | `static/description/index.html` (English, no JS, inline styles only, Bootstrap grid classes; external links are stripped by the store, so only `mailto:` is linked) | done |
 | README | `README.rst` | done |
 | Translations | `i18n/letsbot_connector.pot`, `ar.po`, `es.po`, `pt.po` | done |
 
-## 4. Screenshots to produce before publishing (owner/design)
+## 4. Listing images (done in 1.0.1)
 
-Save them under `static/description/` and reference them from `index.html` (`<img src="screenshot_1.png">`):
-1. `screenshot_settings_disconnected.png`: Settings → LetsBot WhatsApp with the **Connect to LetsBot** button.
-2. `screenshot_letsbot_pick_workspace.png`: the LetsBot landing page (needs the LetsBot `/odoo/connect` page first).
-3. `screenshot_settings_connected.png`: status *Connected*, workspace, last contact, event toggles.
-4. `screenshot_partner_button.png`: contact form with the **WhatsApp (LetsBot)** smart button.
-5. `screenshot_whatsapp_answer.png`: a WhatsApp chat where the AI answers an order-status question from Odoo data.
-6. Optional: `screenshot_queue.png` (Technical → LetsBot Webhook Events).
+All images live in `static/description/` and are referenced relatively from `index.html`:
 
-Use 1280×800+ PNG with no customer PII (use the `lb_demo` data). Capture them in English. Arabic versions are optional.
+| File | Content |
+|---|---|
+| `letsbot_cover.png` | Store cover: headline, live chat with the Odoo panel, WhatsApp AI answer |
+| `feature_01_ai_agent.png` | AI agent answering on WhatsApp from Odoo (product, stock, order status) |
+| `feature_02_customer_360.png` | Customer 360 (Odoo tab) inside LetsBot live chat |
+| `feature_03_odoo_panel.png` | Odoo overview and product catalog in LetsBot |
+| `feature_04_invoices.png` | Invoices with WhatsApp payment reminders |
+| `feature_05_automations.png` | WhatsApp automations triggered by Odoo events |
+| `feature_06_connect.png` | Odoo Settings → LetsBot WhatsApp (real Odoo 19 screenshot, disconnected + connected) |
+| `feature_07_omnichannel.png` | LetsBot suite: one inbox for every channel, WhatsApp calls, apps |
+| `feature_08_suite.png` | LetsBot suite: AI agents, CRM, campaigns, tickets, automations, analytics |
+
+Rules kept: English only, demo data only (no customer PII), PNG, each < 500 KB, whole folder < 6 MB.
+To change an image, re-render the HTML compositions and re-optimise (libimagequant), then bump the version.
 
 ## 5. Pre-submission QA (per series)
 
