@@ -3,7 +3,7 @@
     "name": "LetsBot WhatsApp AI Inbox",
     "summary": "AI agent and omnichannel inbox powered by your Odoo data: "
                "WhatsApp, Instagram, Messenger, Telegram and email.",
-    "version": "17.0.1.0.1",
+    "version": "17.0.1.0.2",
     "category": "Sales",
     "author": "LetsBot",
     "website": "https://letsbot.net",
